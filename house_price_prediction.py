@@ -87,7 +87,7 @@ elif choice == 'Dự đoán giá trị mới':
     road_type_str = st.radio('Trước nhà là đường hay hẻm?', options=['Đường', 'Hẻm'])
     alley_road_width = st.slider('Độ rộng đường trước nhà', 0.94, 10.5, 3.0)
     near_market_str = st.radio('Nhà có gần chợ trong bán kính 500m?', options=['Có', 'không'])
-    st.write(district, ward, street)
+    #st.write(district, ward, street)
 
     # Make new prediction
     if st.button('Tính giá nhà'):
